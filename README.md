@@ -1,4 +1,4 @@
-# 🔖 Bookmark Manager
+<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/3d5fe12a-6040-4798-a5cb-6b49dd7e1e15" /># 🔖 Bookmark Manager
 
 A web-based application to save, organize, and manage website bookmarks in one place.
 
@@ -45,11 +45,15 @@ The application includes user authentication and data isolation, ensuring that e
 
 | Login | Dashboard |
 |---|---|
-| *Coming soon* | *Coming soon* |
+| <img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/028900ef-e036-4fd0-8455-0c4c7c38c7b5" />
+ | <img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/f66492f0-249a-4225-a92e-b0615a70875a" />
+ |
 
 | Bookmark Management | Category Management |
 |---|---|
-| *Coming soon* | *Coming soon* |
+| <img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/5ef149cf-3f8f-49a4-b2db-d8e804c7e777" />
+ | <img width="1907" height="908" alt="image" src="https://github.com/user-attachments/assets/2bf51fce-834f-4e7f-b301-3385ee5a1056" />
+|
 
 ## ⚙️ Installation & Setup
 
