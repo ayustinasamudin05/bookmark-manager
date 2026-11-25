@@ -1,65 +1,83 @@
-<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/3d5fe12a-6040-4798-a5cb-6b49dd7e1e15" /># 🔖 Bookmark Manager
-
-A web-based application to save, organize, and manage website bookmarks in one place.
-
-Built as a portfolio project to demonstrate web application development using **Laravel, PHP, MySQL, and Bootstrap 5**.
+# 🔖 Bookmark Manager
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 13">
-  <img src="https://img.shields.io/badge/PHP-8.4%2B-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5">
+  <img width="100%" alt="Bookmark Manager Dashboard" src="https://github.com/user-attachments/assets/0aefbd3a-9f5e-4f0f-b783-8711e49733ad" />
+</p>
+
+<p align="center">
+  A web-based application to save, organize, and manage website bookmarks in one place.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 13" />
+  <img src="https://img.shields.io/badge/PHP-8.4%2B-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
 </p>
 
 ---
 
-## 📌 Project Overview
+## 📌 Overview
 
-Bookmark Manager helps users store and organize website links efficiently. Users can manage their bookmarks, group them into categories, mark important links as favorites, and quickly find saved links through search and filtering.
+Bookmark Manager is a web application designed to help users save, organize, and manage website links efficiently.
 
-The application includes user authentication and data isolation, ensuring that each user can only access and manage their own bookmarks and categories.
+Users can create bookmarks, organize them into categories, mark important links as favorites, and find saved links through search and filtering.
 
-## ✨ Key Features
+The application implements user authentication and user-specific data access to ensure that each user can only manage their own bookmarks and categories.
+
+## ✨ Features
 
 | Feature | Description |
 |---|---|
-| 🔐 User Authentication | User registration and login |
-| 📊 Dashboard | Overview of bookmark information |
+| 🔐 Authentication | User registration and login |
+| 📊 Dashboard | Overview of bookmark statistics |
 | 🔖 Bookmark Management | Create, view, edit, and delete bookmarks |
 | 📁 Category Management | Organize bookmarks into categories |
 | ⭐ Favorites | Mark and manage favorite bookmarks |
-| 🔎 Search & Filter | Find bookmarks more easily |
-| 👤 User Data Isolation | Keep each user's data separate |
+| 🔎 Search & Filter | Search and filter saved bookmarks |
+| 👤 Data Isolation | Ensure users can only access their own data |
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-- **Backend:** PHP, Laravel 13
-- **Frontend:** Blade, Bootstrap 5, JavaScript
-- **Database:** MySQL / MariaDB
-- **Build Tool:** Vite
-- **Development Tools:** Visual Studio Code, Composer, npm, Git
-
-## 📸 Application Preview
-
-> Screenshots will be added below to demonstrate the application's interface and main features.
-
-| Login | Dashboard |
+| Category | Technologies |
 |---|---|
-| <img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/028900ef-e036-4fd0-8455-0c4c7c38c7b5" />
- | <img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/f66492f0-249a-4225-a92e-b0615a70875a" />
- |
+| Backend | PHP, Laravel 13 |
+| Frontend | Blade, Bootstrap 5, JavaScript |
+| Database | MySQL / MariaDB |
+| Asset Bundling | Vite |
+| Development Tools | Visual Studio Code, Composer, npm, Git |
 
-| Bookmark Management | Category Management |
-|---|---|
-| <img width="1912" height="912" alt="image" src="https://github.com/user-attachments/assets/5ef149cf-3f8f-49a4-b2db-d8e804c7e777" />
- | <img width="1907" height="908" alt="image" src="https://github.com/user-attachments/assets/2bf51fce-834f-4e7f-b301-3385ee5a1056" />
-|
+## 📸 Application Screenshots
+
+### 1. Login Page
+
+<p align="center">
+  <img width="100%" alt="Bookmark Manager Login Page" src="https://github.com/user-attachments/assets/028900ef-e036-4fd0-8455-0c4c7c38c7b5" />
+</p>
+
+### 2. Dashboard
+
+<p align="center">
+  <img width="100%" alt="Bookmark Manager Dashboard" src="https://github.com/user-attachments/assets/f66492f0-249a-4225-a92e-b0615a70875a" />
+</p>
+
+### 3. Bookmark Management
+
+<p align="center">
+  <img width="100%" alt="Bookmark Management Page" src="https://github.com/user-attachments/assets/5ef149cf-3f8f-49a4-b2db-d8e804c7e777" />
+</p>
+
+### 4. Category Management
+
+<p align="center">
+  <img width="100%" alt="Category Management Page" src="https://github.com/user-attachments/assets/2bf51fce-834f-4e7f-b301-3385ee5a1056" />
+</p>
 
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
 
-Make sure you have installed:
+Make sure the following tools are installed:
 
 - PHP >= 8.4.1
 - Composer
@@ -82,7 +100,7 @@ npm install
 
 ### 3. Configure Environment
 
-Copy the example environment file:
+Create your environment configuration file:
 
 ```bash
 copy .env.example .env
@@ -94,15 +112,19 @@ Generate the application key:
 php artisan key:generate
 ```
 
-### 4. Configure Database
+### 4. Configure the Database
 
-Create a database in MySQL, then update the database configuration in your `.env` file:
+Create a database named `bookmark_manager` in MySQL or MariaDB.
+
+Update the database configuration in your `.env` file:
 
 ```env
 DB_DATABASE=bookmark_manager
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+
+Adjust the credentials according to your local database configuration.
 
 ### 5. Run Database Migrations
 
@@ -116,13 +138,13 @@ php artisan migrate
 npm run build
 ```
 
-### 7. Run the Application
+### 7. Start the Application
 
 ```bash
 php artisan serve
 ```
 
-Open the application in your browser:
+Open the application at:
 
 ```text
 http://127.0.0.1:8000
@@ -133,7 +155,8 @@ http://127.0.0.1:8000
 ```text
 bookmark-manager/
 ├── app/
-│   ├── Http/Controllers/
+│   ├── Http/
+│   │   └── Controllers/
 │   └── Models/
 ├── database/
 │   ├── migrations/
@@ -152,22 +175,22 @@ bookmark-manager/
 └── README.md
 ```
 
-## 🎯 Project Objectives
+## 🎯 Technical Highlights
 
 This project demonstrates practical experience in:
 
-- Developing a web application using Laravel.
+- Building web applications using the Laravel framework.
 - Implementing authentication and user-specific data access.
+- Developing CRUD operations for bookmarks and categories.
 - Designing and managing relational databases.
-- Building CRUD functionality.
-- Organizing application features using the MVC architecture.
-- Integrating frontend components with backend functionality.
+- Applying the MVC (Model-View-Controller) architecture.
+- Integrating frontend interfaces with backend functionality.
 
 ## 🚧 Project Status
 
-**Development completed for the current portfolio version.**
+**Completed – Portfolio Version**
 
-This repository contains the application source code and setup instructions. A live demo is not currently available.
+The source code and installation instructions are available in this repository. The application currently runs locally; a live demo is not available.
 
 ## 👩‍💻 Author
 
@@ -176,10 +199,10 @@ This repository contains the application source code and setup instructions. A l
 Informatics Engineering Graduate | Aspiring Web Programmer
 
 - GitHub: [@ayustinasamudin05](https://github.com/ayustinasamudin05)
-- LinkedIn: [ayustina-samudin](https://www.linkedin.com/in/ayustina-samudin/)
+- LinkedIn: [Ayustina Samudin](https://www.linkedin.com/in/ayustina-samudin/)
 
 ---
 
 <p align="center">
-  <i>Built as part of my web development portfolio.</i>
+  <i>Developed as part of my web development portfolio.</i>
 </p>
